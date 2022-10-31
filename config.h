@@ -6,7 +6,8 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "monospace:pixelsize=12:antialias=true:autohint=true";
-static char *font2[] = { "NotoColorEmoji:pixelsize=12:antialias=true:autohint=true" };
+//static char *font2[] = { "NotoColorEmoji:pixelsize=12:antialias=true:autohint=true" };
+static char *font2[] = { "Noto Sans CJK JP:pixelsize=12:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
@@ -133,7 +134,8 @@ static const char *colorname[] = {
     //"#fe8019",
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#add8e6", /* 256 -> cursor */
+	//"#add8e6",  256 -> cursor
+    "#fbf1c7",
 	"#555555", /* 257 -> rev cursor*/
 	"#1d2021", /* 258 -> bg */
 	"#ebdbb2", /* 259 -> fg */
